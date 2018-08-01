@@ -1,13 +1,13 @@
 /*
-	Programa: mst_seq_semGB.c  (sem grafo bipartido)
-	Descrição: Implementa o Algoritmo para árvore geradora mínima.
-	Programadora: Jucele Vasconcellos
-	Data: 24/08/2017
+	Program: mst_seq_semGB.c  (without bipartite graph)
+	Description: Implementa o Algoritmo para árvore geradora mínima.
+	Programmer: Jucele Vasconcellos
+	Date: 08/24/2017
 
-	Compilacao:	gcc -o mst_seq_semGB.exe mst_seq_semGB.c
-	Execucao:	./mst_seq_semGB.exe in/grafo/grafo1000a seq.out
+	Compilation:	gcc -o mst_seq_semGB.exe mst_seq_semGB.c
+	Execution:	./mst_seq_semGB.exe in/grafo/grafo1000a seq.out
 	
-	Entrada de dados: Este programa lê os dados de um grafo no formato
+	Input data: This program reads data from a graph in the format below
 	8
 	16
 	4 5 0.35
@@ -27,10 +27,10 @@
 	6 0 0.58
 	6 4 0.93
 
-	sendo a primeira linha o número de vértices, a segunda linha o número de arestas
-	e as linhas subsequentes as arestas v1 v2 custo
-		
-	Saída de Dados: Este programa produz um arquivo de saída as arestas que compõem a árvore geradora 
+	being the first line the number of vertices, 
+	the second line the number of edges and 
+	the subsequent lines the edges v1 v2 weight
+
 */
 
 #include <stdio.h> // printf
